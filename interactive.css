@@ -1,0 +1,18 @@
+
+html{scroll-behavior:smooth}
+[hidden]{display:none!important}
+.chapter-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:18px;margin-top:32px}
+.chapter-card{display:flex;flex-direction:column;min-height:215px;padding:27px;border:1px solid #d8e4d7;border-radius:20px;background:#fff;color:#173327;text-decoration:none;box-shadow:0 8px 28px #132b2010;transition:transform .22s,box-shadow .22s,border-color .22s}
+.chapter-card:hover,.chapter-card:focus-visible{transform:translateY(-5px);box-shadow:0 14px 32px #132b2024;border-color:#c0cf48}
+.chapter-index{font-size:13px;font-weight:800;color:#638368}
+.chapter-card h3{font-size:24px;line-height:1.2;margin:16px 0 6px}
+.chapter-card p{margin:0;color:#64756a}
+.chapter-arrow{margin-top:auto;padding-top:22px;font-weight:700;color:#476f2c}
+.back-to-map{display:inline-block;margin-bottom:30px;color:#426b2e;font-weight:800;text-decoration:none}
+.content-panel{border-radius:12px}
+.content-panel summary{cursor:pointer;font-weight:750;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.content-panel summary:after{content:'+';font-size:25px}
+.content-panel[open] summary:after{content:'−'}
+.content-panel .editable-content{padding-top:18px}
+.chapter-open .explore{padding-bottom:25px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.chapter-card{transition:none}}

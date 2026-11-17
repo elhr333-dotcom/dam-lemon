@@ -10,3 +10,7 @@ En el repositorio `elhr333-dotcom/dam-lemon`, abre **Agregar archivo → Cargar 
 
 ## Importante
 Los nueve elementos concretos de la tabla de coordinación y los nombres exactos de las cinco variables de equilibrio no aparecen especificados en la Base d’orientació: complétalos con las fichas específicas de clase. La sección de lateralidad utiliza el test de Jannick Niort. La rúbrica de autoevaluación presenta una discrepancia entre 'Diario personal 10%' y 'Formato 10%'; consultar con el docente. No incluir datos personales sensibles ni fotografías sin consentimiento.
+
+
+## Navegación interactiva
+La portada muestra tarjetas de acceso a cada apartado. Cada sección se abre individualmente y sus contenidos se despliegan mediante paneles. Para editar textos sigue usando `content.js`. Conserva también `interactive.js` y `interactive.css` al subir la web.
