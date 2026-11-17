@@ -1,12 +1,15 @@
-# DAM LEMON — Pasaporte Motriz (castellano)
+# DAM LEMON — maqueta visual del pasaporte motriz
 
-Versión adaptada a la Base d’orientació oficial del curso 2026-2027. Incluye los seis apartados obligatorios: Quiénes somos; Habilidades motrices; Capacidades perceptivo-motrices (coordinación, equilibrio y lateralidad); Revisión entre iguales; Referencias bibliográficas; Diario personal.
+Esta versión mantiene la identidad verde/limón y organiza el proyecto como una web final: portada, presentación del proyecto, cuatro perfiles, habilidades motrices, coordinación, equilibrio, lateralidad, coevaluación, referencias y diario.
 
-## Editar
-Abre `content.js` y cambia los textos `[PENDIENTE]`. No cambies las claves ni elimines las comas. Para fotos, crea una carpeta `imagenes` y usa `<img src="imagenes/foto.jpg" alt="Foto de la actividad">`. Para vídeos, añade enlaces a YouTube. Cada persona puede editar el repositorio si está añadida como colaboradora.
+**Importante:** los nombres, las biografías, las descripciones de actividades, los esquemas y los huecos para vídeos son ejemplos provisionales, no datos reales. Los criterios originales de habilidades motrices se agrupan en cinco desplegables sin eliminar sus temas. Antes de la entrega habrá que contrastar cada apartado con la rúbrica docente.
 
-## Actualizar GitHub
-En el repositorio `elhr333-dotcom/dam-lemon`, abre **Agregar archivo → Cargar archivos**, sube estos cinco archivos a la raíz y confirma la sustitución de los archivos anteriores. También puedes editar cada archivo desde el lápiz. GitHub Pages seguirá publicado desde la rama `principal` y la carpeta raíz.
+## Archivos para GitHub Pages
+Sube `index.html`, `style.css`, `content.js` y `script.js` a la raíz del repositorio. GitHub Pages debe apuntar a esa raíz. No es necesario subir este README para que funcione.
 
-## Importante
-Los nueve elementos concretos de la tabla de coordinación y los nombres exactos de las cinco variables de equilibrio no aparecen especificados en la Base d’orientació: complétalos con las fichas específicas de clase. La sección de lateralidad utiliza el test de Jannick Niort. La rúbrica de autoevaluación presenta una discrepancia entre 'Diario personal 10%' y 'Formato 10%'; consultar con el docente. No incluir datos personales sensibles ni fotografías sin consentimiento.
+## Cómo rellenar
+- `content.js`: perfiles y contenido de los desplegables. Conserva las comillas y comas de JavaScript. Para insertar un vídeo en un desplegable, se puede reemplazar su bloque provisional por `<iframe src="https://www.youtube.com/embed/ID" title="Vídeo de la actividad" loading="lazy" allowfullscreen></iframe>` y añadir estilos de tamaño.
+- `index.html`: introducción general y textos visibles fuera de los desplegables.
+- Fotos: crea una carpeta `imagenes/` y referencia cada imagen con una ruta relativa cuando la tengáis.
+
+No se han incorporado datos ni resultados inventados de vuestro equipo.
