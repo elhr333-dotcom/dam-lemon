@@ -1,41 +1,12 @@
-# 🍋 DAM LEMON — Pasaporte Motriz
+# DAM LEMON — Pasaporte Motriz (castellano)
 
-Web en español para el trabajo de Manifestaciones Básicas de la Motricidad (INEFC, 2026–2027).
+Versión adaptada a la Base d’orientació oficial del curso 2026-2027. Incluye los seis apartados obligatorios: Quiénes somos; Habilidades motrices; Capacidades perceptivo-motrices (coordinación, equilibrio y lateralidad); Revisión entre iguales; Referencias bibliográficas; Diario personal.
 
-## Archivos
-- `index.html`: estructura de la página y textos fijos.
-- `style.css`: diseño, colores, adaptación a móviles y animaciones.
-- `content.js`: **editad aquí los nombres, el itinerario y el contenido de Equilibrio**.
-- `script.js`: genera tarjetas y controla el menú móvil.
+## Editar
+Abre `content.js` y cambia los textos `[PENDIENTE]`. No cambies las claves ni elimines las comas. Para fotos, crea una carpeta `imagenes` y usa `<img src="imagenes/foto.jpg" alt="Foto de la actividad">`. Para vídeos, añade enlaces a YouTube. Cada persona puede editar el repositorio si está añadida como colaboradora.
 
-## Ver la web
-Abrir `index.html` en Chrome o Firefox. La tipografía de Google Fonts necesita conexión.
-
-## Editar contenido
-1. Abrir `content.js` con Visual Studio Code o el editor de GitHub.
-2. Sustituir los textos entre comillas sin borrar comas, llaves ni corchetes.
-3. Para cambiar los textos generales, editar `index.html`.
-4. Para cambiar colores, editar las variables `:root` en `style.css`.
-5. Guardar y comprobar los cambios en el navegador.
-
-## Publicar en GitHub Pages
-1. Crear una cuenta en https://github.com.
-2. Crear un repositorio público llamado `dam-lemon`.
-3. Subir los cuatro archivos de la web a la **raíz del repositorio** (Add file > Upload files > Commit changes).
-4. Ir a Settings > Pages > Build and deployment > Deploy from a branch.
-5. Seleccionar `main` y `/ (root)` y guardar.
-6. La dirección será similar a `https://USUARIO.github.io/dam-lemon/`.
-7. Al confirmar nuevas ediciones, GitHub Pages volverá a publicar la web.
-
-## Añadir fotos
-Crear una carpeta `images` y subir fotografías autorizadas. En `index.html` insertar donde corresponda:
-
-```html
-<img src="images/actividad-equilibrio.jpg" alt="Descripción de la actividad" loading="lazy">
-```
-
-## Añadir vídeos
-Subir el vídeo a YouTube con la privacidad adecuada e insertar el `iframe` proporcionado por YouTube. No publicar datos personales ni imágenes de menores sin permiso.
+## Actualizar GitHub
+En el repositorio `elhr333-dotcom/dam-lemon`, abre **Agregar archivo → Cargar archivos**, sube estos cinco archivos a la raíz y confirma la sustitución de los archivos anteriores. También puedes editar cada archivo desde el lápiz. GitHub Pages seguirá publicado desde la rama `principal` y la carpeta raíz.
 
 ## Importante
-La presentación del profesorado exige crear una web en equipo y aplicar criterios de seguridad, comunicación y participación. Todavía no tenemos la «Base de orientación» ni la «Ficha de tarea de habilidad motriz», por lo que esta estructura es provisional, no una rúbrica confirmada.
+Los nueve elementos concretos de la tabla de coordinación y los nombres exactos de las cinco variables de equilibrio no aparecen especificados en la Base d’orientació: complétalos con las fichas específicas de clase. La sección de lateralidad utiliza el test de Jannick Niort. La rúbrica de autoevaluación presenta una discrepancia entre 'Diario personal 10%' y 'Formato 10%'; consultar con el docente. No incluir datos personales sensibles ni fotografías sin consentimiento.
