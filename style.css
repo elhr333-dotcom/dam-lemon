@@ -9,3 +9,28 @@
 #habilidades .fold-body p{margin:0 0 1rem}
 #habilidades .fold-body strong{color:#173f2c}
 #habilidades .media-placeholder{margin-top:1rem}
+
+/* Habilidades motrices: lectura editorial con cuatro capítulos */
+.dam-intro{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,1fr);gap:2rem;align-items:center;margin:2rem 0 1.2rem;padding:clamp(1.3rem,3vw,2.3rem);background:#173b2b;color:#fff;border-radius:22px}
+.dam-intro h3{font-size:clamp(1.45rem,3vw,2.25rem);line-height:1.14;margin:.5rem 0 1rem;color:#fff}
+.dam-intro p{color:#dbe9d8;line-height:1.7;margin:0}
+.dam-mini{font-size:.75rem;font-weight:800;letter-spacing:.14em;color:#e4f46b}
+.dam-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem}
+.dam-stats span{display:flex;flex-direction:column;align-items:center;gap:.3rem;padding:1rem .25rem;background:#ffffff12;border:1px solid #ffffff25;border-radius:14px;font-size:.8rem;text-align:center}
+.dam-stats b{font-size:2rem;color:#e6f47d}
+.dam-chapters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.7rem;margin:1.2rem 0 1.4rem}
+.dam-chapters>div{display:flex;flex-direction:column;gap:.4rem;padding:1.15rem;background:#eef3e8;border:1px solid #dce8d1;border-radius:15px}
+.dam-chapters span{font-size:.75rem;font-weight:900;color:#57765a}
+.dam-chapters strong{color:#183e2b;font-size:.94rem}
+.dam-chapters small{color:#52695b;font-size:.78rem}
+.dam-accordion .fold{margin-bottom:.7rem}
+.dam-accordion .fold>summary{font-size:1.08rem}
+.dam-group{display:grid;gap:1.2rem}
+.dam-topic{padding:clamp(1rem,2.5vw,1.65rem);background:#fff;border:1px solid #dce8d4;border-radius:16px;box-shadow:0 4px 16px #153c2410}
+.dam-topic h4{font-size:clamp(1.1rem,2vw,1.35rem);color:#1d4b30;margin:0 0 1rem;padding-bottom:.65rem;border-bottom:2px solid #e4efce}
+.dam-topic p{max-width:78ch;line-height:1.8}
+.dam-topic p:last-child{margin-bottom:0}
+.dam-topic .dam-figure{margin:1.3rem 0 .5rem}
+.dam-topic .media-placeholder{padding:1rem;border:1px dashed #c3d4b5;border-radius:12px;background:#f5f8f0}
+@media(max-width:760px){.dam-intro{grid-template-columns:1fr}.dam-chapters{grid-template-columns:repeat(2,minmax(0,1fr))}.dam-stats b{font-size:1.5rem}}
+@media(max-width:400px){.dam-chapters{grid-template-columns:1fr}}
